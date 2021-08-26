@@ -1,0 +1,123 @@
+#resume-container {
+  min-height: 3000px;
+  width: 100vw;
+  padding-top: 40px;
+  background-color: white;
+}
+
+.sub-container {
+  display: flex;
+  width: 60vw;
+  margin-left: 30vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sub-container h2 {
+  color: black;
+}
+
+.sub-container .resume-section-header {
+  width: 100px;
+  margin-right: 120px;
+  float: left;
+}
+
+.resume-description {
+  width: 100vw;
+  position: relative;
+  min-height: 200px;
+  margin-bottom: 10px;
+}
+
+.resume-description h1 {
+  margin-bottom: 0;
+  float: left;
+  margin: auto;
+}
+
+.resume-description .sub-heading {
+  font-size: 16px;
+  margin-top: 0px;
+  float: left;
+  /* position: absolute; */
+  clear: both;
+  top: 35px;
+  color: 	#505050;
+}
+
+.resume-description .sub-heading i {
+  font-size: 20px;
+  font-family: 'Times New Roman';
+}
+
+.resume-description .description {
+  text-align: left;
+  /* top: 70px; */
+  width: 80%;
+  clear: both;
+  position: relative;
+  color: 				#A0A0A0;
+  font-size: 16px;
+}
+
+.skills-description {
+  width: 35vw;
+}
+
+#resume-container hr {
+  border: 0;
+  height: 2px;
+  width: 70vw;
+  margin-left: 20vw;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.sub-container .description {
+  width: 65%;
+  /* clear: both; */
+  position: relative;
+  color: 				#A0A0A0;
+  font-size: 18px;
+}
+
+.sub-container .tech-stack-description {
+  width: 65%;
+  position: relative;
+  color: 				#A0A0A0;
+  font-size: 18px;
+}
+
+.tech-stack-container {
+  width: 80%;
+  margin: auto;
+}
+
+.tech-stack-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0 50px 0;
+}
+
+.tech-stack-item {
+  width: 300px;
+}
+
+.tech-stack-item p {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .sub-container {
+    flex-direction: column;
+    margin-left: 20vw;
+  }
+
+  .sub-container .tech-stack-description {
+    width: 90%;
+  }
+
+  .skills-description {
+    width: 60vw;
+  }
+}

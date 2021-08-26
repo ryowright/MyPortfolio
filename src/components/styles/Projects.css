@@ -1,0 +1,162 @@
+#projects-container {
+  height: 450px;
+  width: 100vw;
+  /* background-color: 		#D3D3D3; */
+  /* margin-top: 50px; */
+  background-image: url('./images/Yosemite.jpg');
+  background-attachment: fixed;
+}
+
+#projects-container-left {
+  height: 100%;
+  width: 50%;
+  margin: 0;
+  float: left;
+  padding-left: 50px;
+}
+
+#projects-container-right {
+  height: 400px;
+  width: 50%;
+  margin: 0;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects-container-right .projects-descriptions {
+  width: 70%;
+  text-align: center;
+}
+
+#projects-header {
+  margin-left: auto;
+  margin-top: 7%;
+  margin-bottom: 20px;
+  float: left;
+}
+
+#projects-header #projects-intro {
+  color: whitesmoke;
+}
+
+#project-title {
+  color: whitesmoke;
+}
+
+#projects-display {
+  width: 50%;
+  height: 100%;
+}
+
+.projects-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  clear: both;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.projects-item {
+  margin: 0 20px 0 0;
+}
+
+.projects-item:hover {
+  cursor: pointer;
+}
+
+.projects-item img {
+  transition-duration: 0.5s;
+  border-radius: 15px;
+}
+
+.projects-item img:hover {
+  height: 140px;
+  width: 240px;
+  opacity: 0.8;
+}
+
+.projects-descriptions {
+  margin: 20px;
+  margin-right: 10%;
+  clear: both;
+}
+
+.projects-descriptions p {
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 1400px) {
+  #projects-container-left {
+    float: none;
+    margin: 0 30% 0 20%;
+    width: 50%;
+    height: 50%;
+    clear: both;
+    padding: 0;
+    padding-top: 20px;
+  } 
+  
+  #projects-header {
+    margin-left: auto;
+    width: 720px;
+  }
+
+  #projects-display {
+    width: 720px;
+    margin: auto;
+  }
+
+  #projects-container-right {
+    clear: both;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    float: none;
+  }
+
+  #projects-container {
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #projects-container-left {
+    height: 100%;
+    width: 50%;
+    margin: 0;
+    float: left;
+    clear: none;
+    margin-top: 40px;
+  }
+
+  #projects-container-right {
+    height: 100%;
+    width: 50%;
+    float: left;
+    clear: none;
+  }
+
+  #projects-display {
+    width: 50%;
+    margin-top: 50px;
+  }
+
+  #projects-header {
+    position: absolute;
+    width: 70%;
+    margin: 0 15% 0 15%;
+  }
+
+  .projects-row {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .projects-item {
+    margin: 10px 0 10px 0;
+  }
+}

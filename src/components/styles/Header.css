@@ -1,0 +1,105 @@
+#home {
+  min-height: 500px;
+  height: 1020px;
+  background-image: url('./images/SanFranciscoNight.jpg');
+  background-attachment: fixed;
+}
+
+#navbar-container {
+  background-color: none;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  transition-duration: 1s;
+  background-color: #2F2D2E;
+}
+
+/* #navbar-container:hover {
+  background-color: #2F2D2E;
+} */
+
+#navbar-links {
+  list-style: none;
+  /* background-color: #2F2D2E; */
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+#navbar-links li {
+  display: inline;
+  margin: 18px;
+  margin-top: 0;
+}
+
+#navbar-links li a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: lightgray;
+  transition-property: color;
+  transition-duration: 1s;
+}
+
+#navbar-links li a:hover {
+  color: orange;
+}
+
+#intro-container {
+  height: 800px;
+  position: relative;
+}
+
+#intro-container #intro {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  max-width: 700px;
+  min-width: 500px;
+}
+
+#intro-headline {
+  font-size: 72px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+#intro-paragraph {
+  margin: 0;
+}
+
+#social-media-links {
+  list-style: none;
+}
+
+#social-media-links li {
+  display: inline;
+  margin: 8px;
+}
+
+#social-media-links li a {
+  color: white;
+  transition-duration: 1s;
+}
+
+#social-media-links li a:hover {
+  color: #11ABB0;
+}
+
+#uc-merced {
+  text-decoration: none;
+  color: gold;
+  transition-duration: 1s;
+}
+
+#uc-merced:hover {
+  color: royalblue;
+}
+
+#intro hr {
+  visibility: hidden;
+}
