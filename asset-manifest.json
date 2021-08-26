@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/PortfolioWebsite/static/css/main.b08a9358.chunk.css",
+    "main.js": "/PortfolioWebsite/static/js/main.cd96c51b.chunk.js",
+    "main.js.map": "/PortfolioWebsite/static/js/main.cd96c51b.chunk.js.map",
+    "runtime-main.js": "/PortfolioWebsite/static/js/runtime-main.cd03b961.js",
+    "runtime-main.js.map": "/PortfolioWebsite/static/js/runtime-main.cd03b961.js.map",
+    "static/css/2.ea4b535c.chunk.css": "/PortfolioWebsite/static/css/2.ea4b535c.chunk.css",
+    "static/js/2.95a27a4e.chunk.js": "/PortfolioWebsite/static/js/2.95a27a4e.chunk.js",
+    "static/js/2.95a27a4e.chunk.js.map": "/PortfolioWebsite/static/js/2.95a27a4e.chunk.js.map",
+    "index.html": "/PortfolioWebsite/index.html",
+    "static/css/2.ea4b535c.chunk.css.map": "/PortfolioWebsite/static/css/2.ea4b535c.chunk.css.map",
+    "static/css/main.b08a9358.chunk.css.map": "/PortfolioWebsite/static/css/main.b08a9358.chunk.css.map",
+    "static/js/2.95a27a4e.chunk.js.LICENSE.txt": "/PortfolioWebsite/static/js/2.95a27a4e.chunk.js.LICENSE.txt",
+    "static/media/GoalSettingApp.d0a181bf.jpg": "/PortfolioWebsite/static/media/GoalSettingApp.d0a181bf.jpg",
+    "static/media/LiveChatApp.f8712b24.png": "/PortfolioWebsite/static/media/LiveChatApp.f8712b24.png",
+    "static/media/PortfolioWebsite.c7484373.png": "/PortfolioWebsite/static/media/PortfolioWebsite.c7484373.png",
+    "static/media/ProfilePicture.d05a8114.jpg": "/PortfolioWebsite/static/media/ProfilePicture.d05a8114.jpg",
+    "static/media/Header.css": "/PortfolioWebsite/static/media/SanFranciscoNight.fe0c20bd.jpg",
+    "static/media/Projects.css": "/PortfolioWebsite/static/media/Yosemite.8f70a0f4.jpg",
+    "static/media/semantic.min.css": "/PortfolioWebsite/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/trychats.98596f25.png": "/PortfolioWebsite/static/media/trychats.98596f25.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd03b961.js",
+    "static/css/2.ea4b535c.chunk.css",
+    "static/js/2.95a27a4e.chunk.js",
+    "static/css/main.b08a9358.chunk.css",
+    "static/js/main.cd96c51b.chunk.js"
+  ]
+}
