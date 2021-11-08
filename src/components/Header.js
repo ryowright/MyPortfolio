@@ -13,27 +13,27 @@ export default function Header() {
     <header id="home">
       <nav id="navbar-container">
         <ul id="navbar-links">
-          <li>
+          <li className="home active">
             <a className="navbar-smoothscroll" href="#home">
               Home
             </a>
           </li>
-          <li>
+          <li className="about active">
             <a className="navbar-smoothscroll" href="#about">
               About
             </a>
           </li>
-          <li>
+          <li className="resume active">
             <a className="navbar-smoothscroll" href="#resume">
               Resume
             </a>
           </li>
-          <li>
+          <li className="projects active">
             <a className="navbar-smoothscroll" href="#projects">
               Projects
             </a>
           </li>
-          <li>
+          <li className="contact active">
             <a className="navbar-smoothscroll" href="#contact">
               Contact
             </a>

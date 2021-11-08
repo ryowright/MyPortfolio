@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/About.css';
 
-import profilePic from './styles/images/ProfilePicture.jpg';
+import profilePic from './styles/images/professionalpicture.jpg';
 
 export default function About() {
   return (
