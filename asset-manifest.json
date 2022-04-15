@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.45365510.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.8b8eb771.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.8b8eb771.chunk.js.map",
+    "main.css": "/MyPortfolio/static/css/main.48b279ce.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.6ba2d415.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.6ba2d415.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.e09a21e4.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.e09a21e4.js.map",
-    "static/css/2.d59554a0.chunk.css": "/MyPortfolio/static/css/2.d59554a0.chunk.css",
-    "static/js/2.641c2476.chunk.js": "/MyPortfolio/static/js/2.641c2476.chunk.js",
-    "static/js/2.641c2476.chunk.js.map": "/MyPortfolio/static/js/2.641c2476.chunk.js.map",
+    "static/css/2.2cd2f672.chunk.css": "/MyPortfolio/static/css/2.2cd2f672.chunk.css",
+    "static/js/2.1cfa0b6b.chunk.js": "/MyPortfolio/static/js/2.1cfa0b6b.chunk.js",
+    "static/js/2.1cfa0b6b.chunk.js.map": "/MyPortfolio/static/js/2.1cfa0b6b.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "static/css/2.d59554a0.chunk.css.map": "/MyPortfolio/static/css/2.d59554a0.chunk.css.map",
-    "static/css/main.45365510.chunk.css.map": "/MyPortfolio/static/css/main.45365510.chunk.css.map",
-    "static/js/2.641c2476.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.641c2476.chunk.js.LICENSE.txt",
+    "static/css/2.2cd2f672.chunk.css.map": "/MyPortfolio/static/css/2.2cd2f672.chunk.css.map",
+    "static/css/main.48b279ce.chunk.css.map": "/MyPortfolio/static/css/main.48b279ce.chunk.css.map",
+    "static/js/2.1cfa0b6b.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.1cfa0b6b.chunk.js.LICENSE.txt",
     "static/media/Carpool Scheduler.779948db.png": "/MyPortfolio/static/media/Carpool Scheduler.779948db.png",
     "static/media/GoalSettingApp.d0a181bf.jpg": "/MyPortfolio/static/media/GoalSettingApp.d0a181bf.jpg",
     "static/media/HashiCorp Vault.b55d3ae7.png": "/MyPortfolio/static/media/HashiCorp Vault.b55d3ae7.png",
     "static/media/LiveChatApp.f8712b24.png": "/MyPortfolio/static/media/LiveChatApp.f8712b24.png",
     "static/media/PortfolioWebsite.c7484373.png": "/MyPortfolio/static/media/PortfolioWebsite.c7484373.png",
     "static/media/Header.css": "/MyPortfolio/static/media/SanFranciscoNight.fe0c20bd.jpg",
-    "static/media/Projects.css": "/MyPortfolio/static/media/Yosemite.8f70a0f4.jpg",
     "static/media/semantic.min.css": "/MyPortfolio/static/media/outline-icons.ddae9b1b.woff",
     "static/media/professionalpicture.45649e83.jpg": "/MyPortfolio/static/media/professionalpicture.45649e83.jpg",
-    "static/media/trychats.98596f25.png": "/MyPortfolio/static/media/trychats.98596f25.png"
+    "static/media/trychats.2a5dbac1.png": "/MyPortfolio/static/media/trychats.2a5dbac1.png",
+    "static/media/Projects.css": "/MyPortfolio/static/media/yosemite2.709c2180.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e09a21e4.js",
-    "static/css/2.d59554a0.chunk.css",
-    "static/js/2.641c2476.chunk.js",
-    "static/css/main.45365510.chunk.css",
-    "static/js/main.8b8eb771.chunk.js"
+    "static/css/2.2cd2f672.chunk.css",
+    "static/js/2.1cfa0b6b.chunk.js",
+    "static/css/main.48b279ce.chunk.css",
+    "static/js/main.6ba2d415.chunk.js"
   ]
 }
