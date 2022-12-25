@@ -1,33 +1,9 @@
 #projects-container {
-  height: 600px;
+  height: 1100px;
   width: 100vw;
-  /* background-color: 		#D3D3D3; */
-  /* margin-top: 50px; */
-  background-image: url('./images/Yosemite.jpg');
+  background-image: url('./images/yosemite2.jpg');
   background-attachment: fixed;
-}
-
-#projects-container-left {
-  height: 100%;
-  width: 50%;
-  margin: 0;
-  float: left;
-  padding-left: 50px;
-}
-
-#projects-container-right {
-  height: 400px;
-  width: 50%;
-  margin: 0;
-  float: left;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#projects-container-right .projects-descriptions {
-  width: 70%;
-  text-align: center;
+  padding-top: 100px;
 }
 
 #projects-header {
@@ -48,45 +24,6 @@
 #projects-display {
   width: 50%;
   height: 100%;
-}
-
-.projects-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  clear: both;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.projects-item {
-  margin: 0 20px 0 0;
-}
-
-.projects-item:hover {
-  cursor: pointer;
-}
-
-.projects-item img {
-  transition-duration: 0.5s;
-  border-radius: 15px;
-}
-
-.projects-item img:hover {
-  height: 140px;
-  width: 240px;
-  opacity: 0.8;
-}
-
-.projects-descriptions {
-  margin: 20px;
-  margin-right: 10%;
-  clear: both;
-}
-
-.projects-descriptions p {
-  font-size: 18px;
-  color: whitesmoke;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -123,6 +60,12 @@
   }
 }
 
+@media screen and (max-width: 1300px) {
+  #projects-container {
+    height: 1000px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   #projects-container-left {
     height: 100%;
@@ -149,14 +92,5 @@
     position: absolute;
     width: 70%;
     margin: 0 15% 0 15%;
-  }
-
-  .projects-row {
-    flex-direction: column;
-    margin: 0;
-  }
-
-  .projects-item {
-    margin: 10px 0 10px 0;
   }
 }

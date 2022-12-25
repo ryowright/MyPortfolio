@@ -38,7 +38,7 @@
 #profile-picture img {
   border-radius: 10%;
   margin: 0;
-  border: 10px solid whitesmoke;
+  border: 6px solid whitesmoke;
 }
 
 #about-me {
@@ -47,7 +47,7 @@
   width: 50%;
   margin-right: 20px;
   margin-left: 20px;
-  padding-top: 125px;
+  padding-top: 100px;
 }
 
 #about-me h2 {
@@ -104,6 +104,12 @@
 }
 /* ----------------------- */
 
+@media screen and (max-width: 1600px) {
+  #about-me {
+    width: 90%;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   #about-container {
     height: 800px;
@@ -130,7 +136,6 @@
   }
 
   #about-me h2 { 
-    /* margin-left: 80px; */
     margin: 0 auto 14px auto;
     width: 80%;
   }

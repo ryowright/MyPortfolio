@@ -1,0 +1,16 @@
+.technologies {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.card-buttons {
+  /* margin: auto; */
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
