@@ -3,7 +3,8 @@
   width: 100vw;
   background-image: url('./images/yosemite2.jpg');
   background-attachment: fixed;
-  padding-top: 100px;
+  display: flex;
+  align-items: center;
 }
 
 #projects-header {

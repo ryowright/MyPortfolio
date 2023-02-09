@@ -1,14 +1,13 @@
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Chip from '@mui/material/Chip';
-import { purple } from '@mui/material/colors';
 import "./styles/projectcard.css"
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { grey } from '@mui/material/colors';
+import { Grid } from '@mui/material';
 
 const projectCardTheme = createTheme({
   palette: {
@@ -21,18 +20,18 @@ const projectCardTheme = createTheme({
 export default function ProjectCard({ project }) {
   return (
     <ThemeProvider theme={projectCardTheme}>
-      <Card sx={{ maxWidth: 350 }}>
+      <Card sx={{ width: 500, height: 500 }} >
         <CardMedia
           sx={{ height: 140 }}
           image={project.image}
           title=""
-        />
+          />
         <div style={{display: 'flex', flexDirection: 'column', height: '260px'}}>
           <CardContent sx={{ flex: 1 }}>
             <Typography gutterBottom variant="h5" component="div">
               {project.title}
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography fontSize='16px' color="text.secondary">
               {project.description}
             </Typography>
           </CardContent>
@@ -46,20 +45,28 @@ export default function ProjectCard({ project }) {
             })}
           </div>
           <div className='card-buttons'>
-            <CardActions >
-              <Button 
-                size="small" 
-                href={project.demoLink}
-                target="_blank"
-              >Demo</Button>
-              {project.githubRepo !== "" ?
-                <Button 
-                  size="small" 
-                  href={project.githubRepo}
-                  target="_blank"
-                >Repo</Button>
-              : null}
-            </CardActions>
+            <Grid container justifyContent='center' alignItems='center'>
+              <Grid item margin='0 10px'>
+                <a href={project.demoLink} target="_blank">
+                  <Button 
+                    size="medium" 
+                    variant="contained"
+                    >
+                      Project Demo
+                  </Button>
+                </a>
+              </Grid>
+              <Grid item margin='0 10px'>
+                {project.githubRepo !== "" ?
+                  <a href={project.githubRepo} target="_blank">
+                    <Button 
+                    size="medium" 
+                    variant="contained"
+                    >Github Repository</Button>
+                  </a>
+                  : null}
+              </Grid>
+            </Grid>
           </div>
         </div>
       </Card>

@@ -8,10 +8,10 @@ import carpoolSchedulerPic from './styles/images/carpoolscheduler.png';
 export const projectdata = [
   {
     title: "trychats",
-    description: "A blockchain-based app that allows users to interact with one another and the blockchain. I contributed to this massive project during my internship in summer 2021.",
+    description: "A blockchain-based app that allows users to interact with one another and the blockchain. I contributed to this massive project during my internship with Adventure Networks.",
     demoLink: "https://trychats.com/#/",
     githubRepo: "https://github.com/AdventurePizza/chat",
-    tech: ["TypeScript", "Node", "React", "Firebase", "Git"],
+    tech: ["TypeScript", "NodeJS", "React", "Firebase", "Git"],
     image: trychatsPic,
   },
   {
@@ -27,7 +27,7 @@ export const projectdata = [
     description: "A web application that facilitates searching from timestamped datasets by enabling users to easily input multiple non-contiguous time range pairs as search parameters.",
     demoLink: "https://www.youtube.com/watch?v=s-0WPzEZwdM",
     githubRepo: "",
-    tech: ["React"],
+    tech: ["NodeJS", "React", "PostgreSQL", "Docker"],
     image: CTRPic,
   },
   {
@@ -35,7 +35,7 @@ export const projectdata = [
     description: "Mobile app that matches carpoolers with drivers based on departure times and car space.",
     demoLink: "https://www.youtube.com/watch?v=G_qVW-r5ELg",
     githubRepo: "https://github.com/ryowright/Carpool-Scheduler",
-    tech: ["Node", "React Native", "PostgreSQL"],
+    tech: ["NodeJS", "React Native", "PostgreSQL"],
     image: carpoolSchedulerPic,
   },
   {
@@ -43,7 +43,7 @@ export const projectdata = [
     description: "An app that allows users to set and manage personal goals.",
     demoLink: "https://goal-setting-web-app.herokuapp.com/login",
     githubRepo: "https://github.com/ryowright/Goals-App",
-    tech: ["Node", "React", "MongoDB", "Heroku"],
+    tech: ["NodeJS", "React", "MongoDB", "Heroku"],
     image: GoalsAppPic,
   },
   {
