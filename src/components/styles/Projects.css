@@ -1,10 +1,14 @@
 #projects-container {
-  height: 1100px;
+  height: auto;
   width: 100vw;
-  background-image: url('./images/yosemite2.jpg');
-  background-attachment: fixed;
+  padding-bottom: 250px;
+  /* background-image: url('./images/yosemite2.jpg'); */
+  /* background-attachment: fixed; */
+  background-color: #1B263B;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 #projects-header {
@@ -27,7 +31,7 @@
   height: 100%;
 }
 
-@media only screen and (max-width: 1400px) {
+/* @media only screen and (max-width: 1400px) {
   #projects-container-left {
     float: none;
     margin: 0 30% 0 20%;
@@ -94,4 +98,4 @@
     width: 70%;
     margin: 0 15% 0 15%;
   }
-}
+} */

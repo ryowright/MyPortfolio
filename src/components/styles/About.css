@@ -2,7 +2,7 @@
   height: 500px;
   min-width: 1000px;
   width: auto;
-  background-color: #585858;
+  background-color: #1B263B;
   display: flex;
 }
 
@@ -38,7 +38,7 @@
 #profile-picture img {
   border-radius: 10%;
   margin: 0;
-  border: 6px solid whitesmoke;
+  border: 6px solid #E0E1DD;
 }
 
 #about-me {
@@ -72,7 +72,7 @@
   border-radius: 4px;
   transition: all 0.5s;
   cursor: pointer;
-  color: whitesmoke;
+  color: #E0E1DD;
   background-color: 	#32CD32;
   margin: 5px;
 }

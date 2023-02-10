@@ -17,10 +17,10 @@ const projectCardTheme = createTheme({
   }
 })
 
-export default function ProjectCard({ project }) {
+export default function ProjectCard({ project, w=400, h=500, fontSize='16px', buttonSize='medium' }) {
   return (
     <ThemeProvider theme={projectCardTheme}>
-      <Card sx={{ width: 500, height: 500 }} >
+      <Card sx={{ width: w, height: h }} >
         <CardMedia
           sx={{ height: 140 }}
           image={project.image}
@@ -31,7 +31,7 @@ export default function ProjectCard({ project }) {
             <Typography gutterBottom variant="h5" component="div">
               {project.title}
             </Typography>
-            <Typography fontSize='16px' color="text.secondary">
+            <Typography fontSize={fontSize} color="text.secondary">
               {project.description}
             </Typography>
           </CardContent>
@@ -49,7 +49,7 @@ export default function ProjectCard({ project }) {
               <Grid item margin='0 10px'>
                 <a href={project.demoLink} target="_blank">
                   <Button 
-                    size="medium" 
+                    size={buttonSize} 
                     variant="contained"
                     >
                       Project Demo
@@ -60,7 +60,7 @@ export default function ProjectCard({ project }) {
                 {project.githubRepo !== "" ?
                   <a href={project.githubRepo} target="_blank">
                     <Button 
-                    size="medium" 
+                    size={buttonSize}  
                     variant="contained"
                     >Github Repository</Button>
                   </a>

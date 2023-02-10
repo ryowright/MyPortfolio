@@ -16,7 +16,7 @@ export const projectdata = [
   },
   {
     title: "HashiCorp Vault",
-    description: "A security application used for secure secret management and protection of sensitive data. Key features of this product include dynamic secret generation, secure secret storage, and data encryption.",
+    description: "A security application used for secure secret management and protection of sensitive data. This is an open-source project that I have very much enjoyed contributing to.",
     demoLink: "https://www.vaultproject.io/",
     githubRepo: "https://github.com/hashicorp/vault/issues?q=involves%3Aryowright+",
     tech: ["Go"],
@@ -32,7 +32,7 @@ export const projectdata = [
   },
   {
     title: "Carpool Scheduler",
-    description: "Mobile app that matches carpoolers with drivers based on departure times and car space.",
+    description: "A Mobile app that matches carpoolers with drivers based on departure times and car space.",
     demoLink: "https://www.youtube.com/watch?v=G_qVW-r5ELg",
     githubRepo: "https://github.com/ryowright/Carpool-Scheduler",
     tech: ["NodeJS", "React Native", "PostgreSQL"],
@@ -40,7 +40,7 @@ export const projectdata = [
   },
   {
     title: "Goal Setting App",
-    description: "An app that allows users to set and manage personal goals.",
+    description: "A web app that allows users to set and manage personal goals.",
     demoLink: "https://goal-setting-web-app.herokuapp.com/login",
     githubRepo: "https://github.com/ryowright/Goals-App",
     tech: ["NodeJS", "React", "MongoDB", "Heroku"],
@@ -48,7 +48,7 @@ export const projectdata = [
   },
   {
     title: "Personal Portfolio Website",
-    description: "My personal portfolio to showcase my work and express who I am as a person, student, and software engineer.",
+    description: "My personal portfolio to showcase my software engineering work and show who I am as a person.",
     demoLink: "https://ryowright.github.io/MyPortfolio/",
     githubRepo: "https://github.com/ryowright/MyPortfolio/tree/main",
     tech: ["React"],
